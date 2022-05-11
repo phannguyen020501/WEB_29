@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Exercise</title>
+</head>
+<body>
+	<form action="Exercise.php"method="POST" id="submit_info">
+		<table border="1" align="center">
+			<tr>
+				<td>Your name</td>
+				<td><input type="text" name="name"></td>
+			</tr>
+			<tr>
+				<td>Class</td>
+				<td><input type="text" name="class"></td>
+			</tr>
+			<tr>
+				<td>University</td>
+				<td><input type="text" name="university"></td>
+			</tr>
+			<tr>
+				<td>Hobby</td>
+				<td>	
+					<table align="center" border="1">
+						<tr>
+							<td></td>
+							<td>Yes</td>
+							<td>No</td>
+						</tr>
+						<tr>
+							<td>Reading</td>
+							<td><input type="radio" name="reading" value="Yes"></td>
+							<td><input type="radio" name="reading" value="No"></td>
+						</tr>
+						<tr>
+							<td>Cooking</td>
+							<td><input type="radio" name="cooking" value="Yes"></td>
+							<td><input type="radio" name="cooking" value="No"></td>
+						</tr>
+						<tr>
+							<td>Soccer</td>
+							<td><input type="radio" name="soccer" value="Yes"></td>
+							<td><input type="radio" name="soccer" value="No"></td>
+						</tr>
+						<tr>
+							<td>Math</td>
+							<td><input type="radio" name="math" value="Yes"></td>
+							<td><input type="radio" name="math" value="No"></td>
+						</tr>
+						<tr>
+							<td>Film</td>
+							<td><input type="radio" name="film" value="Yes"></td>
+							<td><input type="radio" name="film" value="No"></td>
+						</tr>
+						<tr>
+							<td>Facebook</td>
+							<td><input type="radio" name="facebook" value="Yes"></td>
+							<td><input type="radio" name="facebook" value="No"></td>
+						</tr>
+						<tr>
+							<td>Music</td>
+							<td><input type="radio" name="music" value="Yes"></td>
+							<td><input type="radio" name="music" value="No"></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="Click to Submit" form="submit_info"></td>
+			</tr>
+			<tr>
+				<td><input type="reset" value="Erase and Restart" form="submit_info"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
