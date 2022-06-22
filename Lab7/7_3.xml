@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Placemark>
+    <name>167 Thanh Nhàn, Quỳnh Lôi, Hai Bà Trưng, Hà Nội</name>
+    <description>Trọ</description>
+    <Point>
+      <coordinates>21.00302727686095, 105.85635623598043</coordinates>
+    </Point>
+  </Placemark>
+</kml>
